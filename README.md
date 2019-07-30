@@ -3,8 +3,8 @@ Inverse Random is a suite of randomized methods for inverting positive definite 
 
 ---------------------------------------------------------------------------
 
-1. Introduction
-===============
+# 1. Introduction
+
 
 This is a suite of randomized methods for inverting positive definite matrices implemented in MATLAB, based on methods described in
 
@@ -18,8 +18,7 @@ AdaRBFGS        (Adaptive Randomized Block BFGS)
 MR              (Minimal Residual method with self-conditioning)
 Newton-Schulz   (The Newton-Schulz method)              
 
-2. Installation and Setup
-=========================
+# 2. Installation and Setup
 
 Start Matlab and make sure that the working directory is set to the
 main directory of the present package.  At the MATLAB prompt, run
@@ -33,8 +32,7 @@ completed successfully please run in the MATLAB prompt:
   >> demo_LIBSVM
   >> demo_UF
 
-3. Repeat tests in paper [1]
-============================
+# 3. Repeat tests in paper [1]
 
 WARNING: The following experiments are CPU and data intensive!
 
@@ -58,8 +56,7 @@ To repeat all the LIBSVM tests, run the commands
 
 NOTE: the script 'get_LIBSVM_data' will download a total of 380MB to your local hard drive.
 
-4. License
-==========
+# 4. License
 
  InvRand Copyright (C) 2016, Robert Gower 
 
@@ -77,8 +74,7 @@ NOTE: the script 'get_LIBSVM_data' will download a total of 380MB to your local 
  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
-4. The Authors
-==============
+# 4. The Authors
 
 If you have any bug reports or comments, please feel free to email me
 
@@ -89,8 +85,7 @@ Robert Gower
 17 Febuary 2016
 
 
-5. References
-=============
+# 5. References
 
 [1]	Robert M. Gower and Peter Richtarik,
     Randomized Quasi-Newton Updates are Linearly Convergent Matrix Inversion Algorithms, 
