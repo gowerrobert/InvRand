@@ -78,10 +78,8 @@ NOTE: the script 'get_LIBSVM_data' will download a total of 380MB to your local 
 
 If you have any bug reports or comments, please feel free to email me
 
-  Robert Gower <r.m.gower@sms.ed.ac.uk>
-  Robert Gower <gowerrobert@gmail.com>
+  Robert M. Gower <gowerrobert@gmail.com>
 
-Robert Gower
 17 Febuary 2016
 
 
