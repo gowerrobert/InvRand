@@ -15,7 +15,9 @@ This is a suite of randomized methods for inverting positive definite matrices i
 The methods implemented are
 
 AdaRBFGS        (Adaptive Randomized Block BFGS)
+
 MR              (Minimal Residual method with self-conditioning)
+
 Newton-Schulz   (The Newton-Schulz method)              
 
 # 2. Installation and Setup
