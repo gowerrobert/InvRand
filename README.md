@@ -14,25 +14,23 @@ This is a suite of randomized methods for inverting positive definite matrices i
 
 The methods implemented are
 
-AdaRBFGS        (Adaptive Randomized Block BFGS)
-
-MR              (Minimal Residual method with self-conditioning)
-
-Newton-Schulz   (The Newton-Schulz method)              
+* AdaRBFGS        (Adaptive Randomized Block BFGS)
+* MR              (Minimal Residual method with self-conditioning)
+* Newton-Schulz   (The Newton-Schulz method)              
 
 # 2. Installation and Setup
 
 Start Matlab and make sure that the working directory is set to the
 main directory of the present package.  At the MATLAB prompt, run
 
-  >> setup_InvRand
+  > setup_InvRand
 
 To test if the installation and setup have been 
 completed successfully please run in the MATLAB prompt:
 
-  >> demo_InvRand
-  >> demo_LIBSVM
-  >> demo_UF
+  > demo_InvRand
+  > demo_LIBSVM
+  > demo_UF
 
 # 3. Repeat tests in paper [1]
 
@@ -41,20 +39,20 @@ WARNING: The following experiments are CPU and data intensive!
 To run the tests carried out in the paper [1] do the following.
 To repeat all random matrix tests, at the MATLAB prompt run
 
-  >> test_all_User() 
+  > test_all_User() 
 
 To repeat all the UF sparse matrix tests, at the MATLAB prompt run
 
-  >> problems =  [1401, 440, 760, 40, 868, 937, 1288];
-  >> test_all_UF(problems)                     % Tests a sequence of UF Matrices [3]
+  > problems =  [1401, 440, 760, 40, 868, 937, 1288];
+  > test_all_UF(problems)                     % Tests a sequence of UF Matrices [3]
 
 NOTE: this will download approx. a GB of data to your local hard drive!
 To repeat all the LIBSVM tests, run the commands
 
-  >> get_LIBSVM_data
-  >> problems =  {'aloi', 'protein','gisette_scale', 'real-sim' }
-  >> prefix = './tests/LIBSVM/data/';
-  >> test_all_LIBSVM(problems,prefix)           % Tests a sequence of ridge regression matrices using data from LIBSVM [2]
+  > get_LIBSVM_data
+  > problems =  {'aloi', 'protein','gisette_scale', 'real-sim' }
+  > prefix = './tests/LIBSVM/data/';
+  > test_all_LIBSVM(problems,prefix)           % Tests a sequence of ridge regression matrices using data from LIBSVM [2]
 
 NOTE: the script 'get_LIBSVM_data' will download a total of 380MB to your local hard drive.
 
